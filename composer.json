@@ -1,5 +1,5 @@
 {
-    "name": "akukoder/fortify-tabler-admin",
+    "name": "etopian/fortify-tabler-admin",
     "description": "Laravel Fortify based on Fortify UI and open source Tabler theme.",
     "keywords": [
         "laravel",
@@ -16,15 +16,21 @@
             "email": "syahzul@akukoder.com",
             "homepage": "https://akukoder.com",
             "role": "Developer"
+        },
+        {
+            "name": "Etopian",
+            "email": "contact@etopian.com",
+            "homepage": "https://etopian.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "arcanedev/laravel-settings": "^8.1|^9.0",
-        "illuminate/support": "^8.0|^9.0",
+        "php": "^7.3|^8.0|^8.1",
+        "etopian/laravel-settings": "^8.1|^9.0|^10.0",
+        "illuminate/support": "^8.0|^9.0|^10.0",
         "intervention/image": "^2.5.1",
         "laravel/sanctum": "^3.0",
-        "zacksmash/fortify-ui": "^1.0",
+        "etopian/fortify-ui": "^1.1",
         "ext-json": "*"
     },
     "require-dev": {
